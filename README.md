@@ -1,4 +1,4 @@
-# Shopping Cart App
+# Shopping Cart
 
 A simple and interactive **Shopping Cart** web application built with **HTML, CSS, and JavaScript**. This app allows users to add multiple items to a cart, see calculations for subtotal, taxes, and total amount dynamically.
 
