@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkcyan;
+}
+
+#cart{
+    position: absolute;
+    right: 160px;
+    top: 6px;
+    cursor: pointer;
+}
+
+#card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#card-container .card{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#card-container .card button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#card-container .card button:hover{
+    cursor: pointer;
+}
+
+#card-container .card .price{
+    font-size: 20px;
+}
+
+#overlay{
+   display: none;
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 100vw;
+   height: 100vh;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
+#cart-container{
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+#cart-container #items p{
+    margin-bottom: -5px;
+}
+
+#cart-container .calculations p{
+    margin-bottom: -5px;
+}
+
+#cart-container #items{
+    margin-bottom: 40px;
+}
